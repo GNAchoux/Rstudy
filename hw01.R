@@ -43,14 +43,14 @@ even_odd(71)
   # "I am happy" if its argument is "Saturday",
   # "I am dying" if its argument is "Wednesday", and
   # "It will pass", otherwise.
-i_feel <- function(Day){
-  if (Day == "Monday"){
+i_feel <- function(day){
+  if (day == "Monday"){
     cat("I am tired")
   }
-  else if (Day == "Saturday"){
+  else if (day == "Saturday"){
     cat("I am happy")
   }
-  else if (Day == "Wednesday"){
+  else if (day == "Wednesday"){
     cat("I am dying")
   }
   else{
